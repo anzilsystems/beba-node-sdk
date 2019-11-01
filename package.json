@@ -1,0 +1,36 @@
+{
+  "name": "beba-node-sdk",
+  "version": "1.0.2",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "requestify": "^0.2.5"
+  },
+  "description": "This is a Beba sdk for node.js developers to help javascript developers integrate Pickup and delivery services",
+  "main": "lib/beba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beba",
+    "shipping",
+    "pikieglobal",
+    "getCouriers",
+    "getRates",
+    "getCountries",
+    "getServices",
+    "getNearbyDrivers",
+    "getPaymentOptions",
+    "getOrderStatus",
+    "updateOrderStatus",
+    "createShipment",
+    "cancelShipment"
+  ],
+  "author": {
+    "name": "Basil Ndonga"
+  },
+  "license": "ISC"
+}
