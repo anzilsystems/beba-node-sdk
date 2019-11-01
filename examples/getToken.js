@@ -1,4 +1,4 @@
-var beba = require('beba');
+var beba = require('beba-node-sdk');
 
 
 /**
