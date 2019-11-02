@@ -13,12 +13,16 @@ npm install beba-node-sdk
  
  
 ## Configuration
- At your project root, create a .env file and in it set the BEBA_CLIENT_KEY,BEBA_CLIENT_SECRET and BEBA_ENV(i.e live or sandbox) and put the keys you received when registering your application from the developer portal.<br>
+ Set custom environment variables for BEBA_CLIENT_KEY,BEBA_CLIENT_SECRET and BEBA_ENV(i.e live or sandbox) using the export command using the keys you received when registering your application from the developer portal.<br>
 You can Register for a developer account and get your client_id and secret at [Beba Developer Portal](http://developer.pikieglobal.com). <br>
 
- `BEBA_CLIENT_KEY= [YOUR_API_CLIENT_KEY]` <br>
- `BEBA_CLIENT_SECRET=[YOUR_API_CLIENT_SECRET]`<br>
- `BEBA_ENV=[live or sandbox]`<br>
+From linux/mac terminal type
+
+ `export BEBA_CLIENT_KEY= YOUR_API_CLIENT_KEY` <br>
+ `export BEBA_CLIENT_SECRET=YOUR_API_CLIENT_SECRET`<br>
+ `export BEBA_ENV = sandbox`<br>
+
+ For Windows users check this [link](https://helpdeskgeek.com/how-to/create-custom-environment-variables-in-windows/) for setup instructions 
 
 **Callback Responses**<br>
 _You should be able to register  callback urls where the callback responses will be sent._
