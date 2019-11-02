@@ -175,18 +175,24 @@ beba.getNearbyDrivers(request_options,function(data){
 
 ```javascript
 
-const  item_detail = {
-    0: {
-        'item_name' : '',
-        'qty_no' : '',
-        'rate' : ''
-    },
-   1:{
-        'item_name' : '',
-        'qty_no' : '',
-        'rate' : ''
-    },
-};
+let item_detail = [
+  {
+    item_name: "Beef Fry",
+    qty_no: 2,
+    rate: 40
+  },
+  {
+    item_name: "Ugali Matumbo",
+    qty_no: 1,
+    rate: 30
+  },
+  {
+    item_name: "Italian Pizza",
+    qty_no: 4,
+    rate: 45
+  },
+];
+
 
 const request_options={
 

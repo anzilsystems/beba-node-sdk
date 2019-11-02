@@ -1,13 +1,15 @@
 {
   "name": "beba-node-sdk",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "dependencies": {
     "dotenv": "^4.0.0",
     "http": "0.0.0",
     "https": "^1.0.0",
+    "js-php-serialize": "0.0.6",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "requestify": "^0.2.5"
+    "requestify": "^0.2.5",
+    "uuidv4": "^5.0.1"
   },
   "description": "This is a Beba sdk for node.js developers to help javascript developers integrate Pickup and delivery services",
   "main": "lib/beba.js",

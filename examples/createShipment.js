@@ -1,27 +1,33 @@
 var beba = require('beba-node-sdk');
+const uuid = require('uuidv4').default;
 
 /**
  * Set the request options
  */
 
-const item_detail = {
-    0: {
-        'item_name': '',
-        'qty_no': '',
-        'rate': ''
+let item_detail = [
+    {
+        item_name: "Beef Fry",
+        qty_no: 2,
+        rate: 40
     },
-    1: {
-        'item_name': '',
-        'qty_no': '',
-        'rate': ''
+    {
+        item_name: "Ugali Matumbo",
+        qty_no: 1,
+        rate: 30
     },
-};
+    {
+        item_name: "Italian Pizza",
+        qty_no: 4,
+        rate: 45
+    },
+];
 
 
 const request_options = {
 
     "order_id": "5",
-    "unique_id": "45684e0b-8c73-41be-a118-fc7ab1c17694",
+    "unique_id": uuid(), //generate unique id e.g 11bf5b37-e0b8-42e0-8dcf-dc8c4aefc000
     "trans_id": "5",
     "service_id": "1",
     "customer_id": "4",
