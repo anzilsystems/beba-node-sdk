@@ -10,11 +10,9 @@ This is a Beba sdk for node.js developers to help javascript developers integrat
 npm install beba-node-sdk
 ```
 
- 
- 
 ## Configuration
  Set custom environment variables for BEBA_CLIENT_KEY,BEBA_CLIENT_SECRET and BEBA_ENV(i.e live or sandbox) using the export command using the keys you received when registering your application from the developer portal.<br>
-You can Register for a developer account and get your client_id and secret at [Beba Developer Portal](http://developer.pikieglobal.com). <br>
+You can Register for a developer account and get your client_id and secret at [Beba Developer Portal](https://developer.pikieglobal.com). <br>
 
 From linux/mac terminal type
 
@@ -233,6 +231,21 @@ const request_options={
 
 ## Running Examples
 Examples are located in the [examples directory](/examples).
+
+
+## Support
+
+Need support using this package:-
+
+- [API QUERY <api-feedback@pikieglobal.com>][link-author]
+
+
+If you wish to be added as a contributor to this project let us know.
+
+
+## Security
+
+If you discover any security related issues, please email _api-feedback@pikieglobal.com_ 
 
 
 
