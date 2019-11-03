@@ -6,7 +6,6 @@ var beba = require('beba-node-sdk');
 const request_options = {
 
     "country_code": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
 };
 
 /**

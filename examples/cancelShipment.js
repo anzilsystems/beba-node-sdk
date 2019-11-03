@@ -4,9 +4,7 @@ var beba = require('beba-node-sdk');
  * Set the request options
  */
 const request_options = {
-
     "unique_id": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
 };
 
 /**

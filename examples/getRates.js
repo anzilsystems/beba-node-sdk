@@ -9,7 +9,6 @@ const request_options = {
     "pickup_longitude": " ",
     "delivery_latitude": "",
     "delivery_longitude": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
 
 };
 

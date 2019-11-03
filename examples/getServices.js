@@ -3,10 +3,7 @@ var beba = require('beba-node-sdk');
 /**
  * Set the request options
  */
-const request_options = {
-
-    "callbackURL": "https://ip_address:port/callback_url"
-};
+const request_options = {};
 
 /**
  * Call the api and pass the options as the first parameter

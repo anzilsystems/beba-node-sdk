@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This is a Beba sdk for node.js developers to help javascript developers integrate Pickup and delivery services into their web apps easily. The package uses REST API that is documented on beba developer portal. You can access it on http://developer.pikieglobal.com
+This is a Beba sdk for node.js developers to help javascript developers integrate Pickup and delivery services into their web apps easily. The package uses REST API that is documented on https://www.pikieglobal.com/docs.
  
 ## Installation
 
@@ -42,7 +42,6 @@ _You should be able to register  callback urls where the callback responses will
     const request_options= {
         "country_code": " ",
         "category_id":" ",
-        "callbackURL":"https://ip_address:port/callback_url"
       };
 
       beba.getCouriers(request_options,function(data){
@@ -58,7 +57,6 @@ _You should be able to register  callback urls where the callback responses will
             "pickup_longitude":" ",
             "delivery_latitude":"",
             "delivery_longitude":" ",
-            "callbackURL":"https://ip_address:port/callback_url"
            };
    beba.getRates(request_options,function(data){
          console.log(data);
@@ -70,10 +68,7 @@ _You should be able to register  callback urls where the callback responses will
  *This is used to obtain list of beba supported countries
 
    ```javascript
-   const request_options={
-          "callbackURL":"https://ip_address:port/callback_url"
-        
-      };
+   const request_options={};
    beba.getCountries(request_options,function(data){
           console.log(data);
      })
@@ -84,10 +79,7 @@ _You should be able to register  callback urls where the callback responses will
  *This is used to obtain list of all supported services on beba Platform
 
    ```javascript
-   const request_options={
-          "callbackURL":"https://ip_address:port/callback_url"
-        
-      };
+   const request_options={};
    beba.getServices(request_options,function(data){
           console.log(data);
      })
@@ -99,10 +91,7 @@ _You should be able to register  callback urls where the callback responses will
 
    ```javascript
    const request_options={
-          "country_code":" "
-          "callbackURL":"https://ip_address:port/callback_url"
-        
-      };
+          "country_code":""};
    beba.getPaymentOptions(request_options,function(data){
           console.log(data);
      })
@@ -132,8 +121,7 @@ This is used to obtain details of nearby drivers based on radius and current loc
 const request_options= {
         "radius": " ",
         "current_latitude": " ",
-        "current_longitude": " ",
-        "callbackURL":"https://ip_address:port/callback_url"
+        "current_longitude": " "
       };
 beba.getNearbyDrivers(request_options,function(data){
       console.log(data);
@@ -164,9 +152,7 @@ beba.getNearbyDrivers(request_options,function(data){
 
    ```javascript
    const request_options={
-          "unique_id":" "
-          "callbackURL":"https://ip_address:port/callback_url"
-        
+          "unique_id":" " 
       };
    beba.cancelShipment(request_options,function(data){
           console.log(data);
@@ -175,7 +161,7 @@ beba.getNearbyDrivers(request_options,function(data){
    ```
 
 **Create Shipment**
- This is used to initiate a reversal request
+ This is used to create a shipment request
 
 ```javascript
 

@@ -8,7 +8,6 @@ const request_options = {
     "radius": " ",
     "current_latitude": " ",
     "current_longitude": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
 };
 
 /**

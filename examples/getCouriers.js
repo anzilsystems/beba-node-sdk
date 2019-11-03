@@ -7,7 +7,6 @@ const request_options = {
 
     "country_code": " ",
     "category_id": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
 };
 
 /**
