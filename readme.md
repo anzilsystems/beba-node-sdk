@@ -237,7 +237,7 @@ Examples are located in the [examples directory](/examples).
 
 Need support using this package:-
 
-- [API QUERY <api-feedback@pikieglobal.com>][link-author]
+- _api-feedback@pikieglobal.com_ 
 
 
 If you wish to be added as a contributor to this project let us know.
