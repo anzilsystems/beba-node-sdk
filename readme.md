@@ -226,7 +226,7 @@ const request_options={
 ```
 
 ## Reference
-   [REST API Reference] (https://developer.pikieglobal.com/docs)
+   [REST API Reference] (https://www.pikieglobal.com/docs)
 
 
 ## Running Examples
