@@ -1,16 +1,17 @@
-var beba = require('beba');
+var beba = require('beba-node-sdk');
 
 /**
  * Set the request options
  */
 const request_options = {
-    "unique_id": " ",
+
+    "courier_id": "",
 };
 
 /**
  * Call the api and pass the options as the first parameter
  */
-beba.getOrderStatus(request_options, function (data) {
+beba.getSpecificCourier(request_options, function (data) {
 
     console.log(data);
 })

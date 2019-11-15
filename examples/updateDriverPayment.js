@@ -4,15 +4,15 @@ var beba = require('beba');
  * Set the request options
  */
 const request_options = {
-
-    "unique_id": " ",
-    "callbackURL": "https://ip_address:port/callback_url"
+    "unique_id": "",
+    "driver_id": "",
+    "payment_status": "",
 };
 
 /**
  * Call the api and pass the options as the first parameter
  */
-beba.updateOrderStatus(request_options, function (data) {
+beba.updateDriverPayment(request_options, function (data) {
 
     console.log(data);
 })
