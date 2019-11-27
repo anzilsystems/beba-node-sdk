@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This is a Beba sdk, a product of [Anzil Software Ltd](https://www.anzilsystems.com) for Node.js/Javascript developers to help integrate Pickup and delivery services into their web apps easily. The package uses REST API that is documented on https://www.pikieglobal.com/docs.
+This is Beba Node SDK, a product of [Anzil Software Ltd](https://www.anzilsystems.com) for Node.js/Javascript developers to help integrate Pickup and delivery services into their web apps easily. The package uses REST API that is documented on https://www.pikieglobal.com/docs.
  
 ## Installation
 
@@ -247,9 +247,8 @@ const request_options={
     "driver_id" : "",
     "courier_type" : "1"
     "item_detail" : item_detail,
-    "business_hours" : "8.00 PM- 5 PM",
+    "business_hours" : "8.00 PM - 5 PM",
     "order_value"  : "700",
-    "shipping_rate"  : "355",
     "shipping_mode"  : "1",
     "currency_code"  : "KES",
   };
