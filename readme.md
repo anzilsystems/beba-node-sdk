@@ -247,7 +247,7 @@ const request_options={
     "driver_id" : "",
     "courier_type" : "1"
     "item_detail" : item_detail,
-    "business_hours" : "8.00 PM - 5 PM",
+    "business_hours": "8.00 AM - 5.00 PM",
     "order_value"  : "700",
     "shipping_mode"  : "1",
     "currency_code"  : "KES",
