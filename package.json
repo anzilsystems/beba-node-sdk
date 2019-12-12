@@ -1,11 +1,10 @@
 {
   "name": "beba-node-sdk",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "dependencies": {
     "dotenv": "^4.0.0",
     "http": "0.0.0",
     "https": "^1.0.0",
-    "js-php-serialize": "0.0.6",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "requestify": "^0.2.5",
