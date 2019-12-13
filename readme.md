@@ -146,6 +146,20 @@ _You should be able to register  callback urls where the callback responses will
 
    ```
 
+**Get Order Detail**
+
+  * This is used to obtain the order detail as well as tracking information of an order based on unique id
+
+   ```javascript
+   const request_options={
+          "unique_id":""  
+      };
+   beba.getOrderDetail(request_options,function(data){
+          console.log(data);
+     })
+
+   ```
+
 **Get Nearby Drivers**
 
 * This is used to obtain details of nearby drivers based on radius and current location.
@@ -176,22 +190,6 @@ beba.getNearbyCouriers(request_options,function(data){
       console.log(data);
  })
 ```
-
-**Update Driver Payment Status**
-
- * This is used to update driver payment status based on unique id and driver id
-
-   ```javascript
-   const request_options={
-          "unique_id":"",
-          "driver_id":"",
-          "payment_status":"", 
-      };
-   beba.updateDriverPayment(request_options,function(data){
-          console.log(data);
-     })
-
-   ```
 
 **Create Shipment**
 

@@ -1,18 +1,16 @@
-var beba = require('beba');
+var beba = require('beba-node-sdk');
 
 /**
  * Set the request options
  */
 const request_options = {
-    "unique_id": "",
-    "driver_id": "",
-    "payment_status": "",
+    "unique_id": " ",
 };
 
 /**
  * Call the api and pass the options as the first parameter
  */
-beba.updateDriverPayment(request_options, function (data) {
+beba.getOrderDetail(request_options, function (data) {
 
     console.log(data);
 })
