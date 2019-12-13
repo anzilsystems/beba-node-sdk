@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This is Beba Node SDK, a product of [Anzil Software Ltd](https://www.anzilsystems.com) for Node.js/Javascript developers to help integrate Pickup and delivery services into their web apps easily. The package uses REST API that is documented on https://www.pikieglobal.com/docs.
+This is Beba Node SDK, a product of [Anzil Software Ltd](https://www.anzilsystems.com) for Node.js/Javascript developers to help integrate Pickup and delivery services into their applications easily. The package uses REST API that is documented on https://www.pikieglobal.com/docs.
  
 ## Installation
 
